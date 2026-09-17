@@ -24,7 +24,7 @@
   - The game ends when the user decides to leave
 
 
-### Challenges and Bugs:
+## Challenges and Bugs:
   - It does not track the specific exhibit encounters, only the total
   - the tickets are kind of useless, it was just a fun thing to include
     - made it look more realistic!
