@@ -1,6 +1,8 @@
 animals = 4
 
-animal_art1 = """
+# so like I had animation ideas for the cat, to have an animation, but I did not have enough time to do it, so its unfinished
+
+animal_art1 = r"""
           .--._.--.
           ( O     O )
           /   . .   \
@@ -15,7 +17,7 @@ _ _`.    \  |  |  |  /    .'_ _
          '-'|/   \|`-`
 """
 
-animal_art2 = """
+animal_art2 = r"""
                     ,,........_
                  ,-'           `'--.
               ,-'  _               '-.
@@ -33,7 +35,7 @@ animal_art2 = """
 
 """
 
-animal_art_1_3 = """
+animal_art_1_3 = r"""
 
            _,'|             _.-''``-...___..--';)
            /_ \'.      __..-' ,      ,--...--'''
@@ -43,7 +45,7 @@ animal_art_1_3 = """
     (,__....----'''       (,..--''   
 
 """
-animal_art_2_3 = """
+animal_art_2_3 = r"""
 
               __..--''``---....___   _..._    __
     /// //_.-'    .-/";  `        ``<._  ``.''_ `. / // /

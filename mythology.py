@@ -1,6 +1,6 @@
 mythology_exhibit = 3
 
-mythology_art1 = '''
+mythology_art1 = r'''
       ,   ,                                
                                          $,  $,     ,                         
                                         "ss.$ss. .s'                         
@@ -42,7 +42,7 @@ mythology_art1 = '''
             `"""""""""""""'         '           '           '
 '''
 
-mythology_art2 = """
+mythology_art2 = r"""
 
                                         .""--..__
                      _                     []       ``-.._
@@ -82,7 +82,7 @@ mythology_art2 = """
          `---'`   `'----'`
 """
 
-mythology_art3 = """
+mythology_art3 = r"""
                           _
                           _)\.-.
          .-.__,___,_.-=-. )\`  a`\_
@@ -107,7 +107,7 @@ jgs    \'-'/(   _  `\,;        \ '--:,
 
 """
 
-mythology_art4 = """
+mythology_art4 = r"""
                  .--.
                 {=.  `}
                 {\_{   }
