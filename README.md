@@ -1,5 +1,5 @@
-# Digital art gallery
-#### By Izzy !
+<h1 align="center">Welcome to the Art Gallery! </h1>
+<p align="center">Coded in Python by: Izzy Pichler :)
 
 ## Overview
 
