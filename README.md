@@ -31,4 +31,4 @@
 ### Credentials
   - https://www.asciiart.eu/
     - for all of the art, i did edit a few of them to satisfy my needs
-    - i dedicate one art piece to an old friend, it is in the third piece in the space exhibit.
+    - i dedicate one art piece to an old friend, it is in the fourth piece in the space exhibit.
