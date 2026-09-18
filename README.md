@@ -43,8 +43,8 @@ If you are running from a compiled output folder, make sure the application is l
 ## Challenges and Bugs:
 
   - It does not track the specific exhibit encounters, only the total
-  - the tickets are kind of useless, it was just a fun thing to include
-    - made it look more realistic!
+  - I decided to impliment the tickets in last, which WAS NOT a good idea
+    - i was kind of confuzzeled as to where to put it and stuff, especially because it is connected with the encounters 
       
 ### Credentials
 
