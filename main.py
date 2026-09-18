@@ -5,12 +5,20 @@ import Welcome_screen, Space_and_Nature, pokemon, mythology, animals
 
 if __name__ == "__main__":
     print(Welcome_screen.welcome_page)
-    ticket = 5
     encounter = 0
 
     # main entry loop
     while True:
-        ask = input(f'you have {ticket} tickets, that is enough to enter the gallery! would you like to enter? Y/N ')
+        ticket_amount = int(input("""
+hey! how many tickets do you have? you need 5 to get in, 
+and each exhibit vist costs one ticket.
+        """))
+
+        if ticket_amount < 5:
+            print("You do not have enough tickets to enter the gallery, sorry.")
+            exit()  # Closes the system if they don't have enough tickets to start
+
+        ask = input(f'you have {ticket_amount} tickets, that is enough to enter the gallery! would you like to enter? Y/N ')
         if ask == 'y':
             print(f""" 
     welcome to the digital art gallery! you only have {encounter} encounters. 
@@ -27,6 +35,11 @@ if __name__ == "__main__":
 
     # exhibit and art piece choice loop
     while True:
+
+        if ticket_amount <= 0:
+            print("You do not have any tickets! Thank you for visiting the digital art gallery! Bye bye!")
+            break
+
         exhibit_entry = input(f'''
     If you want to access one of the exhibits, type and enter its corresponding number. 
     or if you want to leave, type and enter 5 
@@ -51,15 +64,19 @@ if __name__ == "__main__":
             if which_space == '1':
                 print(Space_and_Nature.space_art1)
                 encounter += 1
+                ticket_amount -= 1
             elif which_space == '2':
                 print(Space_and_Nature.space_art2)
                 encounter += 1
+                ticket_amount -= 1
             elif which_space == '3':
                 print(Space_and_Nature.space_art3)
                 encounter += 1
+                ticket_amount -= 1
             elif which_space == '4':
                 print(Space_and_Nature.space_art4)
                 encounter += 1
+                ticket_amount -= 1
             else:
                 print("Invalid art choice.")
 
@@ -76,15 +93,19 @@ if __name__ == "__main__":
             if which_pokemon == '1':
                 print(pokemon.pokemon_art1)
                 encounter += 1
+                ticket_amount -= 1
             elif which_pokemon == '2':
                 print(pokemon.pokemon_art2)
                 encounter += 1
+                ticket_amount -= 1
             elif which_pokemon == '3':
                 print(pokemon.pokemon_art3)
                 encounter += 1
+                ticket_amount -= 1
             elif which_pokemon == '4':
                 print(pokemon.pokemon_art4)
                 encounter += 1
+                ticket_amount -= 1
             else:
                 print("Invalid art choice.")
 
@@ -101,15 +122,19 @@ if __name__ == "__main__":
             if which_mythology == '1':
                 print(mythology.mythology_art1)
                 encounter += 1
+                ticket_amount -= 1
             elif which_mythology == '2':
                 print(mythology.mythology_art2)
                 encounter += 1
+                ticket_amount -= 1
             elif which_mythology == '3':
                 print(mythology.mythology_art3)
                 encounter += 1
+                ticket_amount -= 1
             elif which_mythology == '4':
                 print(mythology.mythology_art4)
                 encounter += 1
+                ticket_amount -= 1
             else:
                 print("Invalid art choice.")
 
@@ -127,15 +152,19 @@ if __name__ == "__main__":
             if which_animal == '1':
                 print(animals.animal_art1)
                 encounter += 1
+                ticket_amount -= 1
             elif which_animal == '2':
                 print(animals.animal_art2)
                 encounter += 1
+                ticket_amount -= 1
             elif which_animal == '3':
                 print(animals.animal_art_2_3)
                 encounter += 1
+                ticket_amount -= 1
             elif which_animal == '4':
                 print(animals.animal_art4)
                 encounter += 1
+                ticket_amount -= 1
             else:
                 print("Invalid art choice.")
 
