@@ -9,7 +9,7 @@
   
 ## How to Run
 
-1. Open the project by cloneing the repo in IntelliJ IDEA.
+1. Open the project by cloning the repo in IntelliJ IDEA.
 2. Make sure the project SDK is set to Java 25.
 3. Run the launcher class from the IDE.
 
