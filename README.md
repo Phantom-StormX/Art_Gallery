@@ -9,9 +9,8 @@
   
 ## How to Run
 
-1. Open the project by cloning the repo in IntelliJ IDEA.
-2. Make sure the project SDK is set to Java 25.
-3. Run the launcher class from the IDE.
+1. Open the project by cloning the repo in Pycharm.
+3. Run the launcher 'Main.py' from the IDE.
 
 If you are running from a compiled output folder, make sure the application is launched from the correct main entry point.    
 
