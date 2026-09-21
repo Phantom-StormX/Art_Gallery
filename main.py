@@ -56,7 +56,7 @@ and each exhibit vist costs one ticket.
             Awesome! my favorite exhibit! which art piece would you like to see?
             also you have {encounter} encounters  
     saturn [1] 
-    rotating galaxy [2] 
+    desert [2] 
     northern lights [3] 
     mountains [4] 
     ''')
