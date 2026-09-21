@@ -25,7 +25,6 @@ and each exhibit vist costs one ticket.
     here is a crash course of what this place is! this is an awesome art gallery that consists of 4 different exhibits, or themes. 
     each exhibit has at least 4 art pieces... 
     """)
-            encounter += 1 # adds an encounter
             break # stops the loop and moves on to the next piece of code
         elif ask == 'n':
             print('then why did you even come here?? leave.')
@@ -63,7 +62,7 @@ and each exhibit vist costs one ticket.
             # if user chooses space, they have to choose which art piece
             if which_space == '1':
                 print(Space_and_Nature.space_art1)
-                encounter += 1
+                encounter += 1 # adds an encounter
                 ticket_amount -= 1
             elif which_space == '2':
                 print(Space_and_Nature.space_art2)
