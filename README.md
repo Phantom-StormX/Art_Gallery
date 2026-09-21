@@ -9,9 +9,9 @@
   
 ## How to Run
 
-1. Open the project by cloneing the repo in IntelliJ IDEA.
-2. Make sure the project SDK is set to Java 25.
-3. Run the launcher class from the IDE.
+1. Open the project by cloning the repo in Pycharm.
+2. Make sure the version of python is 3.14.5
+3. Run the launcher 'Main.py' from the IDE.
 
 If you are running from a compiled output folder, make sure the application is launched from the correct main entry point.    
 
@@ -31,6 +31,8 @@ If you are running from a compiled output folder, make sure the application is l
 ## Exhibits:
 
   - Computer will ask user which exibhit they would like to see, once they choose and enter a number, it well send the user to the corresponding exhibit
+  - Each exhibit has their own python file that stores the art
+    - EX: Space_and_Nature.py stores all of the art in the space and nature exhibit.
     
 ## Pieces:
 
@@ -43,8 +45,8 @@ If you are running from a compiled output folder, make sure the application is l
 ## Challenges and Bugs:
 
   - It does not track the specific exhibit encounters, only the total
-  - the tickets are kind of useless, it was just a fun thing to include
-    - made it look more realistic!
+  - I decided to impliment the tickets in last, which WAS NOT a good idea
+    - i was kind of confuzzeled as to where to put it and stuff, especially because it is connected with the encounters 
       
 ### Credentials
 
